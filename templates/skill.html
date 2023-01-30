@@ -1,0 +1,5 @@
+<h2>найдено со скилом X: {{coat}}</h2>
+
+{% for item in items %}
+<p><a href="/candidate/{{ item['id'] }}">{{ item['name'] }}</a></p>
+{% endfor %}
